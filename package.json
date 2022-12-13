@@ -1,5 +1,5 @@
 {
-  "name": "music-downloader",
+  "name": "music-dwnldr",
   "version": "1.0.0",
   "description": "Module to download music.",
   "main": "./lib/index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SohamBorate/music-downloader.git"
+    "url": "git+https://github.com/SohamBorate/music-dwnldr.git"
   },
   "keywords": [
     "youtube",
@@ -24,9 +24,9 @@
   "author": "SohamBorate",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SohamBorate/music-downloader/issues"
+    "url": "https://github.com/SohamBorate/music-dwnldr/issues"
   },
-  "homepage": "https://github.com/SohamBorate/music-downloader#readme",
+  "homepage": "https://github.com/SohamBorate/music-dwnldr#readme",
   "dependencies": {
     "browser-id3-writer": "^4.4.0",
     "fluent-ffmpeg": "^2.1.2",

@@ -1,4 +1,4 @@
-# music-downloader
+# music-dwnldr
 A module to download music.
 
 ## Usage
@@ -9,7 +9,7 @@ and create an app.
 Copy the `Client ID` and the `Client Secret`.
 
 ```js
-const MusicDownloader = require("music-downloader");
+const MusicDownloader = require("music-dwnldr");
 
 let credentials = require({
     "clientId": "<Client ID>",
@@ -31,7 +31,7 @@ downloader.then((object) => {
 ## Downloading using search query
 
 ```js
-const MusicDownloader = require("music-downloader");
+const MusicDownloader = require("music-dwnldr");
 
 let credentials = require({
     "clientId": "<Client ID>",

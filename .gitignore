@@ -2,6 +2,7 @@ node_modules
 package-lock.json
 .spot-dl
 .music-downloader
+.music-dwnldr
 *.mp3
 .vs
 _credentials_.json
