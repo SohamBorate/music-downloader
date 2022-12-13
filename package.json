@@ -1,0 +1,40 @@
+{
+  "name": "music-downloader",
+  "version": "1.0.0",
+  "description": "Module to download music.",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node .",
+    "start": "node .",
+    "test-search": "node tests/search.js",
+    "test-url": "node tests/url.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SohamBorate/music-downloader.git"
+  },
+  "keywords": [
+    "youtube",
+    "spotify",
+    "music"
+  ],
+  "author": "SohamBorate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SohamBorate/music-downloader/issues"
+  },
+  "homepage": "https://github.com/SohamBorate/music-downloader#readme",
+  "dependencies": {
+    "browser-id3-writer": "^4.4.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "spotify-web-api-node": "^5.0.2",
+    "stream": "^0.0.2",
+    "youtube-sr": "^4.3.0",
+    "ytdl-core": "^4.11.2"
+  }
+}

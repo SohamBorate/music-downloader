@@ -1,0 +1,7 @@
+node_modules
+package-lock.json
+.spot-dl
+.music-downloader
+*.mp3
+.vs
+_credentials_.json
