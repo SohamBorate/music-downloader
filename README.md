@@ -41,10 +41,7 @@ let downloader = new MusicDownloader(credentials, __dirname);
 
 downloader.then((object) => {
     downloader = object;
-    let download = downloader.downloadFromSearch({
-        "track": "Teenagers",
-        "artist": "My Chemical Romance"
-    })
+    let download = downloader.downloadFromSearch("Teenagers My Chemical Romance")
     .then((data) => {
        console.log(data);
     }, (err) => {
