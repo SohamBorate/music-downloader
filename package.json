@@ -1,6 +1,6 @@
 {
   "name": "music-dwnldr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Module to download music.",
   "main": "./lib/index.js",
   "directories": {
